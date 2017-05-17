@@ -53,6 +53,12 @@
 	height: 480px;
 }
 
+#portada .container{
+	position: absolute;
+    top: 22%;
+    width: 100%;
+}
+
 #portada img[alt="logo"]{
 	width: 120px;
 	height: auto;
@@ -63,7 +69,7 @@
 	background-color: #3498DB;
 	border: none;
 	border-radius: 25px;
-	width: 20rem;
+	width: 21rem;
 }
 
 #portada button:hover{
