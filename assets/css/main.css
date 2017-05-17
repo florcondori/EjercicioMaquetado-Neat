@@ -5,39 +5,50 @@
 }
 
 *{
-	font-family: "proxima-nova-soft";
+	font-family: "proxima-nova-soft", Arial;
 }
 /*Estilos para la portada*/
 .icon{
 	position: absolute;
 	display: inline-block;
+	background-size: contain;
+}
+
+.icon--hero{
+	background-position: center bottom;
+	background-size: cover;
+	bottom: -4.5rem;
+	right: 0;
+	height: 100%;	
+	width: 100%;
+	z-index: 4;
 }
 
 .icon--hero-bg{
 	background-position: right bottom;
+	background-size: cover;
 	top: 0;
 	left: 0;
-	bottom: 0;
+	bottom: 4.5rem;
 	width: 100%;
 }
 
 .icon--hero-park{
-	bottom: 15px;
+	bottom: 1.85rem;
 	left: 5%;
-	width: 260px;
-    height: 316px;
+	width: 150px;
+    height: 180px;
 }
 
 .icon--hero-bench{
-	bottom: 15px;
-	right: 5%;
-	width: 148px;
-    height: 66px;
+	bottom: 1.85rem;
+	right: 14%;
+	width: 100px;
+    height: 45px;
 }
 
 #portada{
 	position: relative;
-	background-color: #9ACCEF;
 	color: #fff;
 	height: 480px;
 }
@@ -52,6 +63,7 @@
 	background-color: #3498DB;
 	border: none;
 	border-radius: 25px;
+	width: 20rem;
 }
 
 #portada button:hover{
