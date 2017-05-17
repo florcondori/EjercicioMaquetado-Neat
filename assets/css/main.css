@@ -1,1 +1,59 @@
-main
+@font-face {
+  font-family: "proxima-nova-soft";
+  font-style: normal;
+  src: url("https://use.typekit.net/af/b5823a/00000000000000000001743c/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"), url("https://use.typekit.net/af/b5823a/00000000000000000001743c/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"), url("https://use.typekit.net/af/b5823a/00000000000000000001743c/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+}
+
+*{
+	font-family: "proxima-nova-soft";
+}
+/*Estilos para la portada*/
+.icon{
+	position: absolute;
+	display: inline-block;
+}
+
+.icon--hero-bg{
+	background-position: right bottom;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+}
+
+.icon--hero-park{
+	bottom: 15px;
+	left: 5%;
+	width: 260px;
+    height: 316px;
+}
+
+.icon--hero-bench{
+	bottom: 15px;
+	right: 5%;
+	width: 148px;
+    height: 66px;
+}
+
+#portada{
+	position: relative;
+	background-color: #9ACCEF;
+	color: #fff;
+	height: 480px;
+}
+
+#portada img[alt="logo"]{
+	width: 120px;
+	height: auto;
+	margin: 0 auto 10px;
+}
+
+#portada button{
+	background-color: #3498DB;
+	border: none;
+	border-radius: 25px;
+}
+
+#portada button:hover{
+	background-color: #1280c9;
+}
