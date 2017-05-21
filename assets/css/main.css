@@ -7,13 +7,13 @@
 *{
 	font-family: "proxima-nova-soft", Arial;
 }
-/*Estilos para la portada*/
+
 .icon{
 	position: absolute;
 	display: inline-block;
 	background-size: contain;
 }
-
+/*Estilos para la portada*/
 .icon--hero{
 	background-position: center bottom;
 	background-size: cover;
@@ -74,4 +74,36 @@
 
 #portada button:hover{
 	background-color: #1280c9;
+}
+
+/*Estilos de About*/
+#about .icon_about{
+	background-color: #FFCC66;
+	width: 240px;
+	height: 240px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#about .icon_about i{
+	width: 170px;
+	height: 170px;
+}
+
+#about .row{
+	margin-top:	3rem;
+	margin-bottom: 3rem;
+}
+
+#about h2{
+	color: #3498DB;
+	font-weight: 700;
+	font-size: 2.57em;
+}
+
+#about p{
+	color: #494949;
+	font-weight: 600;
+	line-height: 1.76;
 }
