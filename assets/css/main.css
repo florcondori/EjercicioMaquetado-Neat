@@ -53,6 +53,17 @@ p{
 	font-size: 3.45em;	
 }
 
+@media (min-width: 992px){
+	#checklist .checklist{
+		height: 700px;
+	}
+
+	#checklist .checklist.medium{
+		height: 270px;
+	}
+
+}
+
 /*Estilos para la portada*/
 #portada .icon{
 	position: absolute;
@@ -94,7 +105,7 @@ p{
 #portada{
 	position: relative;
 	color: #fff;
-	height: 480px;
+	height: 100vh;
 }
 
 #portada .container{
@@ -156,6 +167,9 @@ p{
 	font-weight: 600;
 }
 
+#our-promise .row{
+	margin-bottom: 3em;
+}
 /*Estilos de our community*/
 #our-community img{
     width: 150px;
@@ -174,6 +188,7 @@ p{
 h2+p{
 	line-height: 2em;
 	font-size: 1.3em;
+	margin-bottom: 2em;
 }
 
 img+p{
@@ -182,7 +197,6 @@ img+p{
 	margin-top: 0.5em;
 	margin-bottom: 0;
 }
-
 /*Estilos de checklist*/
 #checklist .checklist{
 	background-color: white;
@@ -192,18 +206,9 @@ img+p{
 	margin-bottom: 2em;
 	border-radius: 5px;
 }
+
 #checklist .checklist.medium{
 	height: 380px;
-}
-@media (min-width: 992px){
-	#checklist .checklist{
-		height: 700px;
-	}
-
-	#checklist .checklist.medium{
-		height: 270px;
-	}
-
 }
 
 #checklist h4{
@@ -245,6 +250,9 @@ img+p{
 	margin-bottom: 1.5em;
 }
 
+.input-group input{
+	text-align: center;
+}
 .checkbox input[type="checkbox"]{
 	width: 30px;
 	height: 30px;
