@@ -28,6 +28,20 @@ p{
 	background-color: #75B9E7;
 }
 
+.bg-azul{
+	background-color: #3498DB;
+}
+
+.title-h2{
+	font-size: 3.7em;
+	color: white;
+	font-weight: 700;
+}
+
+.text-white{
+	color: white;
+}
+
 /*Estilos para la portada*/
 #portada .icon{
 	position: absolute;
@@ -146,12 +160,6 @@ p{
 	height: 70px;
 }
 
-#our-community h2{
-	font-size: 4em;
-	color: white;
-	font-weight: 700;
-}
-
 #our-community p{
 	color: white;
 }
@@ -166,4 +174,38 @@ img+p{
 	line-height: normal;
 	margin-top: 0.5em;
 	margin-bottom: 0;
+}
+
+/*Estilos de checklist*/
+#checklist .checklist{
+	background-color: white;
+	color: black;
+	height: 900px;
+	overflow: auto;
+	margin-bottom: 2em;
+	border-radius: 5px;
+}
+#checklist .checklist.medium{
+	height: 380px;
+}
+@media (min-width: 992px){
+	#checklist .checklist{
+		height: 700px;
+	}
+
+	#checklist .checklist.medium{
+		height: 270px;
+	}
+
+}
+
+#checklist h4{
+	line-height: 2;
+	font-size: 1.7em;
+	font-weight: 700;
+}
+
+#checklist li{
+	padding: 1em 0 1em 4em;
+	line-height: 1.7;
 }
