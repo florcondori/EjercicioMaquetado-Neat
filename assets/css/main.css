@@ -17,8 +17,19 @@
 	color: #3498DB;
 	font-weight: 700;
 }
+
+p{
+	color: #494949;
+	font-weight: 600;
+	line-height: 1.76;
+}
+
+.bg-celeste{
+	background-color: #75B9E7;
+}
+
 /*Estilos para la portada*/
-#portada i{
+#portada .icon{
 	position: absolute;
 }
 
@@ -104,14 +115,8 @@
 	margin-bottom: 3rem;
 }
 
-#about h2{
+#about h3{
 	font-size: 2.57em;
-}
-
-#about p{
-	color: #494949;
-	font-weight: 600;
-	line-height: 1.76;
 }
 
 /*Estilos de our promise*/
@@ -128,4 +133,37 @@
 	color: #6EA43F;
 	font-size: 1.5em;
 	font-weight: 600;
+}
+
+/*Estilos de our community*/
+#our-community img{
+    width: 150px;
+    height: 150px;
+}
+
+#our-community i{
+	width: 150px;
+	height: 70px;
+}
+
+#our-community h2{
+	font-size: 4em;
+	color: white;
+	font-weight: 700;
+}
+
+#our-community p{
+	color: white;
+}
+
+h2+p{
+	line-height: 2em;
+	font-size: 1.3em;
+}
+
+img+p{
+	font-size: 1.3em;
+	line-height: normal;
+	margin-top: 0.5em;
+	margin-bottom: 0;
 }
