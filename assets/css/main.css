@@ -1,4 +1,4 @@
-000@font-face {
+@font-face {
   font-family: "proxima-nova-soft";
   font-style: normal;
   src: url("https://use.typekit.net/af/b5823a/00000000000000000001743c/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"), url("https://use.typekit.net/af/b5823a/00000000000000000001743c/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"), url("https://use.typekit.net/af/b5823a/00000000000000000001743c/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
@@ -9,7 +9,6 @@
 }
 
 .icon{
-	position: absolute;
 	display: inline-block;
 	background-size: contain;
 }
@@ -19,6 +18,10 @@
 	font-weight: 700;
 }
 /*Estilos para la portada*/
+#portada i{
+	position: absolute;
+}
+
 .icon--hero{
 	background-position: center bottom;
 	background-size: cover;
@@ -114,4 +117,15 @@
 /*Estilos de our promise*/
 #our-promise h2{
 	font-size: 3.45em;
+}
+
+#our-promise i{
+	width: 75px;
+	height: 80px;
+}
+
+#our-promise h5{
+	color: #6EA43F;
+	font-size: 1.5em;
+	font-weight: 600;
 }
