@@ -32,6 +32,13 @@ p{
 	background-color: #3498DB;
 }
 
+.bg-plomo{
+	background-color: #EEE;
+}
+.bg-white{
+	background-color: white;
+}
+
 .title-h2{
 	font-size: 3.7em;
 	color: white;
@@ -40,6 +47,10 @@ p{
 
 .text-white{
 	color: white;
+}
+
+.fs-3em{
+	font-size: 3.45em;	
 }
 
 /*Estilos para la portada*/
@@ -134,10 +145,6 @@ p{
 }
 
 /*Estilos de our promise*/
-#our-promise h2{
-	font-size: 3.45em;
-}
-
 #our-promise i{
 	width: 75px;
 	height: 80px;
@@ -208,4 +215,48 @@ img+p{
 #checklist li{
 	padding: 1em 0 1em 4em;
 	line-height: 1.7;
+}
+
+/*Estilos de your quote*/
+#your-quote i{
+	width: 45px;
+	height: 45px;
+}
+
+#your-quote span{
+	margin-left: 5px;
+}
+
+#your-quote .row{
+	margin-bottom: 2em;
+}
+
+#your-quote button[class$="btn-block"]{
+	background-color: #6EA43F;
+	border: none;
+	border-radius: 25px;
+}
+.flex-align-center{
+	display: flex;
+	align-items: center;
+}
+
+.input-group{
+	margin-bottom: 1.5em;
+}
+
+.checkbox input[type="checkbox"]{
+	width: 30px;
+	height: 30px;
+	margin-left: -40px;
+	top: -10px;
+}
+
+.checkbox{
+	border-bottom: 1px solid lightgray;
+	padding-bottom: 1.5em;
+}
+
+.checkbox label{
+	padding-left: 40px;
 }
